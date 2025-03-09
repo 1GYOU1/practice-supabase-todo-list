@@ -2,7 +2,7 @@
 import { Button, Input } from "@material-tailwind/react";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { createTodo, getTodos } from "app/actions/todo-actions";
-import Todo from './components/Todo'
+import Todo from "app/components/Todo";
 import { useState } from "react";
 
 export default function UI() {
